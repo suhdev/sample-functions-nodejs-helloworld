@@ -3,3 +3,5 @@ packages:
     actions:
       - name: hello
         runtime: 'nodejs:default'
+environment:
+  SEND_GRID_A: ${SEND_GRID_A}
